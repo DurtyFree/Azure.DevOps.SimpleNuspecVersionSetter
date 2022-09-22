@@ -17,7 +17,22 @@
         "Azure Pipelines"
     ],
     "links": {
-        "github": { "uri": "https://github.com/DurtyFree" }
+        "github": { 
+            "uri": "https://github.com/DurtyFree" 
+        },
+        "repository": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter"
+        },
+        "issues": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter/issues"
+        },
+        "support": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter"
+        }
+    },
+    "repository": {
+      "type": "git",
+      "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter"
     },
     "tags": [
         "nuget",
