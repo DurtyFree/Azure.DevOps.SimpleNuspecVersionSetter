@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "simplenuspecversionsetter",
     "name": "Simple Nuspec Version Setter",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": "Alexander Schmid",    
     "description": "Simply sets the version of all found nuspec files to the one set in the task.",
     "license": "MIT",
@@ -17,17 +17,14 @@
         "Azure Pipelines"
     ],
     "links": {
-        "github": { 
-            "uri": "https://github.com/DurtyFree" 
-        },
         "repository": {
             "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter"
         },
         "issues": {
             "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter/issues"
         },
-        "support": {
-            "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter"
+        "license": {
+            "uri": "https://github.com/DurtyFree/Azure.DevOps.SimpleNuspecVersionSetter/blob/main/LICENSE"
         }
     },
     "repository": {
