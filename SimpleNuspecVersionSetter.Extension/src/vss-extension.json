@@ -1,0 +1,70 @@
+{
+    "manifestVersion": 1,
+    "id": "simplenuspecversionsetter",
+    "name": "Simple Nuspec Version Setter",
+    "version": "1.0.1",
+    "author": "Alexander Schmid",    
+    "description": "Simply sets the version of all found nuspec files to the one set in the task.",
+    "license": "MIT",
+    "publisher": "AlexanderSchmid",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "links": {
+        "github": { "uri": "https://github.com/DurtyFree" }
+    },
+    "tags": [
+        "nuget",
+        "nuget-powertool",
+        "SimpleNuspecVersionSetter",
+        "versioning",
+        "nuspec",
+        "latest",
+        "update",
+        "updater",
+        "setter",
+        "change",
+        "version",
+        "build",
+        "packages"
+    ],
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "icons": {
+        "default": "images/Logo.png"        
+    },
+    "screenshots": [
+        {
+            "path": "images/screen.png"
+        }
+    ],
+    "CustomerQnASupport": {
+        "enableqna":"true"
+    },
+    "files": [
+        {
+            "path": "SimpleNuspecVersionSetter"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "SimpleNuspecVersionSetter",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "SimpleNuspecVersionSetter"
+            }
+        }
+    ]
+}
